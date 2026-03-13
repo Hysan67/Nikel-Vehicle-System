@@ -51,4 +51,10 @@ Aplikasi ini dibangun dengan logika bisnis yang ketat:
 - **Asset Locking**: Kendaraan dan Driver yang statusnya `in_use` akan terkunci otomatis dan tidak muncul di form pesanan baru.
 - **BBM Logic**: Konsumsi BBM = `Jarak Tempuh (KM)` / `Rasio BBM Mobil (KM/Liter)`.
 
+## Physical Data Model
+<img width="1074" height="1036" alt="Screenshot 2026-03-13 041949" src="https://github.com/user-attachments/assets/366b3735-6cdb-49ad-bece-6ae33f121266" />
+
+## Activity Diagram
+<img width="531" height="1060" alt="Screenshot 2026-03-13 041741" src="https://github.com/user-attachments/assets/534d970a-7c75-47ae-a06c-ad6329999871" />
+
 ---
