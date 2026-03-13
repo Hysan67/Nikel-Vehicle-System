@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-light:  #EEEEEE;
+        --color-green:  #4CAF50;
+        --color-medium: #F07B3F;
+        --color-dark:   #2D4059;
+    }
+
+    thead {
+        background-color: #2D4059;
+        color: #EEEEEE;
+    }
+    thead th {
+        color: #EEEEEE !important;
+    }
+    tbody tr:hover {
+        background-color: #EEEEEE;
+    }
+    select:focus, textarea:focus, input:focus {
+        border-color: #F07B3F !important;
+        box-shadow: 0 0 0 3px rgba(240, 123, 63, 0.2) !important;
+        outline: none;
+    }
+}
